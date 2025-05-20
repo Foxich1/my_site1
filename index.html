@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Резюме Роман Боячук</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Роман Боячук</h1>
+      <h2>Студент НУЛП</h2>
+    </header>
+
+    <section>
+      <h3>Особистий профіль</h3>
+      <p>Студент Національного університету "Львівська політехніка" за спеціальністю "Кібербезпека". Зацікавлений у сфері ІТ, зокрема веб-розробки та мережевої безпеки.</p>
+    </section>
+
+    <section>
+      <h3>Професійні навички</h3>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>Git та GitHub</li>
+        <li>ОС: Windows, Linux</li>
+        <li>VS Code, Sublime Text</li>
+        <li>Командний рядок</li>
+        <li>Прості веб-сторінки</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Освіта</h3>
+      <p>НУ "Львівська політехніка" — "Кібербезпека" (2022–2026)</p>
+    </section>
+
+    <section>
+      <h3>Контакти</h3>
+      <p>м. Львів, Україна</p>
+      <p><a href="tel:+380987654321">Телефон: +380987654321</a></p>
+      <p><a href="mailto:roman@gmail.com">Email: roman@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h3>Досвід</h3>
+      <ul>
+        <li>Проєкт: сайт-портфоліо</li>
+        <li>HTML-розмітка</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Курси та сертифікати</h3>
+      <ul>
+        <li>DevOps, SoftServe</li>
+        <li>Git та GitHub — Coursera</li>
+      </ul>
+    </section>
+
+    <section id="comments-section">
+      <h3>Коментарі від роботодавців</h3>
+      <div id="comments-container"></div>
+    </section>
+  </div>
+
+  <footer id="footer-info"></footer>
+
+  <button class="theme-toggle" id="theme-toggle">Перемкнути тему</button>
+  <button class="theme-toggle" id="open-feedback">Залишити відгук</button>
+
+  <div id="feedback-modal" class="modal">
+    <form id="feedback-form" action="https://formspree.io/f/xgvkqynz" method="POST">
+      <h3>Форма зворотного зв’язку</h3>
+      <input type="text" name="name" placeholder="Ваше ім’я" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="tel" name="phone" placeholder="Номер телефону" required />
+      <textarea name="message" placeholder="Ваш відгук" rows="4" required></textarea>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
